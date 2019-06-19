@@ -29,13 +29,18 @@ a {
   margin-right: 0px !important;
 }
 
+.fa {
+  font-size: 2.5vh;
+}
+
 .fa-remove {
   position: absolute;
   color: orangered;
   opacity: 0;
-  transition: 0.2s;
-  margin: 5px auto auto auto;
+  transition: 0.3s;
+  margin: 0.25vh auto auto auto;
   pointer-events: none;
+  transform: translateX(-25px);
 }
 
 .fa-trash-o {
@@ -48,7 +53,6 @@ a {
 
 .delete-icons:hover .fa-remove {
   opacity: 1;
-  transform: translateX(-25px);
 }
 
 /* label color */
@@ -83,4 +87,8 @@ a {
 /* icon prefix focus color */
 .input-field .prefix.active {
   color: white !important;
+}
+
+.footer-copyright {
+  margin-bottom: 4vh !important;
 }
