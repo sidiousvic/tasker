@@ -23,6 +23,34 @@ a {
   cursor: pointer;
 }
 
+.card
+  .card-action
+  a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+  margin-right: 0px !important;
+}
+
+.fa-remove {
+  position: absolute;
+  color: orangered;
+  opacity: 0;
+  transition: 0.2s;
+  margin: 5px auto auto auto;
+  pointer-events: none;
+}
+
+.fa-trash-o {
+  user-select: none;
+}
+
+.fa-trash-o:hover {
+  color: #222 !important;
+}
+
+.delete-icons:hover .fa-remove {
+  opacity: 1;
+  transform: translateX(-25px);
+}
+
 /* label color */
 .input-field label {
   color: #353535;
