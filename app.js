@@ -93,14 +93,12 @@ function storeTaskInLocalStorage(task) {
 // remove task
 function removeTask(e) {
   if (e.target.parentElement.parentElement.classList.contains("delete-item")) {
-    // if (confirm("Are you sure?")) {
     e.target.parentElement.parentElement.parentElement.remove();
 
     // remove from LS
     removeTaskFromLocalStorage(
       e.target.parentElement.parentElement.parentElement
     );
-    // }
   }
 }
 
