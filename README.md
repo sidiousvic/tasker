@@ -2,4 +2,4 @@
 
 A task list app. 📝
 
-🍕 sidiousvic
+@sidiousvic
